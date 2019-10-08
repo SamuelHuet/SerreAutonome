@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8" />
+        {% load staticfiles %}
+        {% load static %}
+        <link rel="stylesheet" href="{% static "style/style.css" %}" />
+        <link rel="stylesheet" href="{% static "style/bootstrap.css" %}" />
+        <!-- Titre de l'onglet -->
+        <title>IndoorGarden</title>
+    </head>
+
+    <body>
+      <div class="container-fluid" style="height: 15rem;">
+        <div class="logo">
+          <img src="{% static "pic/greenbox-logo.png" %}" alt="GreenBox Logo">
+          <p>     A way to keep your leaf green</p>
+        </div>
+      </div>
+
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">My GreenBox</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="dropdown" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Dashboard</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Settings</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+      <div class="row no-gutters">
+        <div class="col-12 col-sm-6 col-md-8">
+          <div class="main_text">
+
+
+          <h1>{% block title %}Presentation{% endblock %}</h1>
+
+          {% block content %}<p>
+            Metuentes igitur idem latrones Lycaoniam magna parte campestrem cum se inpares nostris fore congressione stataria documentis frequentibus scirent, tramitibus deviis petivere Pamphyliam diu quidem intactam sed timore populationum et caedium, milite per omnia diffuso propinqua, magnis undique praesidiis conmunitam.
+            Quo cognito Constantius ultra mortalem modum exarsit ac nequo casu idem Gallus de futuris incertus agitare quaedam conducentia saluti suae per itinera conaretur, remoti sunt omnes de industria milites agentes in civitatibus perviis.
+            Thalassius vero ea tempestate praefectus praetorio praesens ipse quoque adrogantis ingenii, considerans incitationem eius ad multorum augeri discrimina, non maturitate vel consiliis mitigabat, ut aliquotiens celsae potestates iras principum molliverunt, sed adversando iurgandoque cum parum congrueret, eum ad rabiem potius evibrabat, Augustum actus eius exaggerando creberrime docens, idque, incertum qua mente, ne lateret adfectans. quibus mox Caesar acrius efferatus, velut contumaciae quoddam vexillum altius erigens, sine respectu salutis alienae vel suae ad vertenda opposita instar rapidi fluminis irrevocabili impetu ferebatur.
+            Nec vox accusatoris ulla licet subditicii in his malorum quaerebatur acervis ut saltem specie tenus crimina praescriptis legum committerentur, quod aliquotiens fecere principes saevi: sed quicquid Caesaris implacabilitati sedisset, id velut fas iusque perpensum confestim urgebatur impleri.
+            Dum haec in oriente aguntur, Arelate hiemem agens Constantius post theatralis ludos atque circenses ambitioso editos apparatu diem sextum idus Octobres, qui imperii eius annum tricensimum terminabat, insolentiae pondera gravius librans, siquid dubium deferebatur aut falsum, pro liquido accipiens et conperto, inter alia excarnificatum Gerontium Magnentianae comitem partis exulari maerore multavit.
+          </p>{% endblock %}
+
+        </div>
+        </div>
+
+
+        <div class="col-6 col-md-4">
+          <div class="card text-white bg-secondary mb-3" style="width: 30rem;">
+            <div class="card-header"><h2>QuickView</h2></div>
+            <div class="card-body">
+
+
+              <div class="row">
+                <div class="col-sm-5 col-md-6">
+                  <div class="alert alert-dark" role="alert">
+                  Temperature
+                </div>
+              </div>
+                <div class="col-sm-5 offset-sm-2 col-md-6 offset-md-0">
+                  <div class="alert alert-dark" role="alert" id="temperature">
+                     {% block temperature %} {% endblock %} °C
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-sm-5 col-md-6">
+                  <div class="alert alert-dark" role="alert">
+                  Moisture
+                </div>
+              </div>
+                <div class="col-sm-5 offset-sm-2 col-md-6 offset-md-0">
+                  <div class="alert alert-dark" role="alert" id="moisture">
+                     {% block moisture %} {% endblock %} %
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-sm-5 col-md-6">
+                  <div class="alert alert-dark" role="alert">
+                    Lumens
+                </div>
+              </div>
+                <div class="col-sm-5 offset-sm-2 col-md-6 offset-md-0">
+                  <div class="alert alert-dark" role="alert">
+                     {% block lumens %} {% endblock %} L
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-sm-5 col-md-6">
+                  <div class="alert alert-dark" role="alert">
+                  Panels
+                </div>
+              </div>
+                <div class="col-sm-5 offset-sm-2 col-md-6 offset-md-0">
+                  <div class="alert alert-dark" role="alert">
+                     {% block panel %} State {% endblock %}
+                  </div>
+                </div>
+              </div>
+
+                {% block connect %}
+
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+
+              {% endblock %}
+            </div>
+            </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+<footer class="page-footer font-small teal pt-4">
+
+  <!-- Footer Text -->
+  <div class="container-fluid text-center text-md-left">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-6 mt-md-0 mt-3">
+
+        <!-- Content -->
+        <h5 class="text-uppercase font-weight-bold">A propos</h5>
+        <p>GreenBox est un projet toujours en cours de développement et ouvert à toute contribution.</p>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none pb-3">
+
+      <!-- Grid column -->
+      <div class="col-md-6 mb-md-0 mb-3">
+
+        <!-- Content -->
+        <h5 class="text-uppercase font-weight-bold">Contact</h5>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio deserunt fuga perferendis modi earum
+          commodi aperiam temporibus quod nulla nesciunt aliquid debitis ullam omnis quos ipsam, aspernatur id
+          excepturi hic.</p>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Text -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2018 Copyright:
+    <a href="index.html"> GreenBox</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+    </body>
+
+</html>

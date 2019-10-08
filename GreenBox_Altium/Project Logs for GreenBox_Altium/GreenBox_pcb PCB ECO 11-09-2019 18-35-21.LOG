@@ -1,0 +1,71 @@
+Change Physical Footprint: Designator=C1 Old Footprint=0805 New Footprint=0805
+Change Physical Footprint: Designator=C2 Old Footprint=0805 New Footprint=0805
+Change Physical Footprint: Designator=C3 Old Footprint=0805 New Footprint=0805
+Change Physical Footprint: Designator=C4 Old Footprint=0805 New Footprint=0805
+Change Physical Footprint: Designator=C5 Old Footprint=0805 New Footprint=0805
+Change Physical Footprint: Designator=C6 Old Footprint=0805 New Footprint=0805
+Change Physical Footprint: Designator=C7 Old Footprint=0805 New Footprint=0805
+Change Physical Footprint: Designator=C8 Old Footprint=0805 New Footprint=0805
+Change Physical Footprint: Designator=C9 Old Footprint=Capa_polarisee New Footprint=Capa_polarisee
+Change Physical Footprint: Designator=C10 Old Footprint=Capa_polarisee New Footprint=Capa_polarisee
+Change Physical Footprint: Designator=C11 Old Footprint=Capa_polarisee New Footprint=Capa_polarisee
+Change Physical Footprint: Designator=C12 Old Footprint=Capa_polarisee New Footprint=Capa_polarisee
+Change Physical Footprint: Designator=C13 Old Footprint=0805 New Footprint=0805
+Change Physical Footprint: Designator=C14 Old Footprint=0805 New Footprint=0805
+Change Physical Footprint: Designator=C15 Old Footprint=0805 New Footprint=0805
+Change Physical Footprint: Designator=C16 Old Footprint=0805 New Footprint=0805
+Change Physical Footprint: Designator=C17 Old Footprint=Capa_polarisee New Footprint=Capa_polarisee
+Change Physical Footprint: Designator=C18 Old Footprint=Capa_polarisee New Footprint=Capa_polarisee
+Change Physical Footprint: Designator=C19 Old Footprint=Capa_polarisee New Footprint=Capa_polarisee
+Change Physical Footprint: Designator=C20 Old Footprint=0805 New Footprint=0805
+Change Physical Footprint: Designator=C21 Old Footprint=0805 New Footprint=0805
+Change Physical Footprint: Designator=D1 Old Footprint=DO-41 New Footprint=DO-41
+Change Physical Footprint: Designator=D2 Old Footprint=Zener12 New Footprint=Zener12
+Change Physical Footprint: Designator=D3 Old Footprint=Zener5 New Footprint=Zener5
+Change Physical Footprint: Designator=J1 Old Footprint=Petit_bornier_3_voies New Footprint=Petit_bornier_3_voies
+Change Physical Footprint: Designator=J2 Old Footprint=Gros Bornier 2 voies New Footprint=Gros Bornier 2 voies
+Change Physical Footprint: Designator=J3 Old Footprint=Petit_bornier_3_voies New Footprint=Petit_bornier_3_voies
+Change Physical Footprint: Designator=J4 Old Footprint=Petit_bornier_3_voies New Footprint=Petit_bornier_3_voies
+Change Physical Footprint: Designator=J5 Old Footprint=Gros Bornier 2 voies New Footprint=Gros Bornier 2 voies
+Change Physical Footprint: Designator=J6 Old Footprint=Petit_bornier_4_voies New Footprint=Petit_bornier_4_voies
+Change Physical Footprint: Designator=J7 Old Footprint=Gros Bornier 2 voies New Footprint=Gros Bornier 2 voies
+Change Physical Footprint: Designator=J8 Old Footprint=Petit_bornier_2_voies New Footprint=Petit_bornier_2_voies
+Change Physical Footprint: Designator=J9 Old Footprint=Gros Bornier 2 voies New Footprint=Gros Bornier 2 voies
+Change Physical Footprint: Designator=J10 Old Footprint=Petit_bornier_2_voies New Footprint=Petit_bornier_2_voies
+Change Physical Footprint: Designator=J11 Old Footprint=Petit_bornier_4_voies New Footprint=Petit_bornier_4_voies
+Change Physical Footprint: Designator=J12 Old Footprint=Gros Bornier 2 voies New Footprint=Gros Bornier 2 voies
+Change Physical Footprint: Designator=J13 Old Footprint=Gros Bornier 2 voies New Footprint=Gros Bornier 2 voies
+Change Physical Footprint: Designator=J14 Old Footprint=Gros Bornier 2 voies New Footprint=Gros Bornier 2 voies
+Change Physical Footprint: Designator=L1 Old Footprint=SDR1806-100ML New Footprint=SDR1806-100ML
+Change Physical Footprint: Designator=L2 Old Footprint=74408943220 New Footprint=74408943220
+Change Physical Footprint: Designator=R1 Old Footprint=0805 New Footprint=0805
+Change Physical Footprint: Designator=R2 Old Footprint=0805 New Footprint=0805
+Change Physical Footprint: Designator=R3 Old Footprint=0805 New Footprint=0805
+Change Physical Footprint: Designator=R4 Old Footprint=0805 New Footprint=0805
+Change Physical Footprint: Designator=R5 Old Footprint=0805 New Footprint=0805
+Change Physical Footprint: Designator=R6 Old Footprint=0805 New Footprint=0805
+Change Physical Footprint: Designator=R7 Old Footprint=0805 New Footprint=0805
+Change Physical Footprint: Designator=R8 Old Footprint=0805 New Footprint=0805
+Change Physical Footprint: Designator=R9 Old Footprint=0805 New Footprint=0805
+Change Physical Footprint: Designator=R10 Old Footprint=0805 New Footprint=0805
+Change Physical Footprint: Designator=R11 Old Footprint=0805 New Footprint=0805
+Change Physical Footprint: Designator=R12 Old Footprint=0805 New Footprint=0805
+Change Physical Footprint: Designator=R13 Old Footprint=0805 New Footprint=0805
+Change Physical Footprint: Designator=R14 Old Footprint=0805 New Footprint=0805
+Change Physical Footprint: Designator=R15 Old Footprint=0805 New Footprint=0805
+Change Physical Footprint: Designator=R16 Old Footprint=0805 New Footprint=0805
+Change Physical Footprint: Designator=T1 Old Footprint=SO-8 New Footprint=SO-8
+Change Physical Footprint: Designator=T2 Old Footprint=SOT-23 - duplicate New Footprint=SOT-23 - duplicate
+Change Physical Footprint: Designator=T3 Old Footprint=SO-8 New Footprint=SO-8
+Change Physical Footprint: Designator=T4 Old Footprint=SO-8 New Footprint=SO-8
+Change Physical Footprint: Designator=T5 Old Footprint=SO-8 New Footprint=SO-8
+Change Physical Footprint: Designator=T6 Old Footprint=SOT-23 - duplicate New Footprint=SOT-23 - duplicate
+Change Physical Footprint: Designator=T7 Old Footprint=SOT-23 - duplicate New Footprint=SOT-23 - duplicate
+Change Physical Footprint: Designator=T8 Old Footprint=SOT-23 - duplicate New Footprint=SOT-23 - duplicate
+Change Physical Footprint: Designator=T9 Old Footprint=SOT-23 - duplicate New Footprint=SOT-23 - duplicate
+Change Physical Footprint: Designator=U1 Old Footprint=SOT-23 New Footprint=SOT-23
+Change Physical Footprint: Designator=U2 Old Footprint=Relai New Footprint=Relai
+Change Physical Footprint: Designator=U3 Old Footprint=Raspberry New Footprint=Raspberry
+Change Physical Footprint: Designator=U4 Old Footprint=TO-220-7 + dissipateur New Footprint=TO-220-7 + dissipateur
+Change Physical Footprint: Designator=U5 Old Footprint=TO-263 New Footprint=TO-263
+Change Physical Footprint: Designator=U6 Old Footprint=TO-220 + Dissipateur New Footprint=TO-220 + Dissipateur
